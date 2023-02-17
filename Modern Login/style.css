@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Box Inputs */
+.body-all{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-1{
+    z-index: 9;
+    border-radius: 0 0 24rem;
+    background-color: rgb(48, 128, 128);
+}
+.bg-2{
+    z-index: 8;
+    background-color: rgb(19, 19, 93);
+    
+}
+.box-div{
+    width: 20rem;
+    height: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-div > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.box-inputs{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.header-word h4{
+    font-size: 1.3rem;
+    margin: 30px 0 0 0;
+    padding: 5px 0;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    color: #222;
+    width: 120px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.body-all.active .sign{
+    display: flex!important;
+}
+.body-all.active .login{
+    display: none;
+}
+.sign{
+    display: none!important;
+}
+.login-sign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-box{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.mini-box input{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 13px;
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #222;
+}
+.mini-box input::placeholder{
+    color: #fff;
+}
+.mini-box button{
+    height: 30px;
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.or-sign{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 0;
+}
+.or-sign h5{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #fff;
+}
+.or-sign-icon{
+    padding: 8px 0;
+}
+.or-sign-icon i{
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    color: #222;
+    background-color: #fff;
+    margin: 0 5px;
+    border-radius: 100%;
+}
+/* Box Inputs */
+
+
+/* BackGround */
+.right-div{
+    width: 50px;
+    height: 150px;
+    background-color: #494848;
+    position: fixed;
+    border-radius: 1rem 0 0 1rem;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.right-div > div{
+    width: 20px;
+    height: 20px;
+    margin: 5px 0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.right-1{
+    background-color: rgb(127, 27, 27);
+}
+.right-2{
+    background-color: rgb(70, 185, 70);
+}
+.right-3{
+    background-color: slateblue;
+}
+.right-4{
+    background-color: rgb(67, 67, 207);
+}
+/* BackGround */
